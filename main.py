@@ -1,8 +1,9 @@
 import requests
 import datetime as dt
 import calendar 
+import json
 
-access_token = "EAALB2PWZBZBusBAGFopdC1yhb8EzMy1P9YSEzFQwYvEng4F6HrucXOJmCRksIZAME3dHnxGNZCgcjiapSsXR5kbZC68z0tBGTA9XpeL84zZCrPEtSiO6SrZBYsSCSJrtfhZBBZCZABF7jxjo5IHUF2QdYRr9JVmDZB9hzBgEeq0QqrtW3H8FZA7ZB3NUjr1zhocV8ocAZD"
+access_token = ""
 instagram_business_account_id = "17841401892691217"
 api_version = "v15.0"
 
