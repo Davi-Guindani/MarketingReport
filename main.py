@@ -1,7 +1,8 @@
 import requests
 import datetime as dt
+from config import TOKEN
 
-access_token = ""
+access_token = TOKEN
 instagram_business_account_id = "17841401892691217"
 api_version = "v15.0"
 
