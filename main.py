@@ -1,7 +1,7 @@
 import requests
 import datetime as dt
 
-access_token = "EAALB2PWZBZBusBAAjaMrZBdMiAG0g9dEBbqzfZBhxwLhZBj0fcQR7kGQejtjZCjF6Upah3NA02Cy3m6U8wWCZBtkrYzWGgBE0fQrpGbBghZBBZCBjLlbBtXeaZAnDZAFJlbpjkwju4UkJtbZBPlRNZC0Racc7olB2gV1dHqHx0XmT75KEzb3mUIajGESAUGuNybJTGmIZD"
+access_token = ""
 instagram_business_account_id = "17841401892691217"
 api_version = "v15.0"
 
