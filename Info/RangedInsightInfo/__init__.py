@@ -5,9 +5,16 @@ import requests
 
 
 class RangedInsightInfo(InsightInfo):
+
+    #atributo estático
+    life_time_ranged_info = ["online_followers", "queijo"]
+
     def __init__ (self, metric):
-        super().__init__ (metric) 
-        self.period = "day"
+        super().__init__ (metric)
+        if metric in self.life_time_ranged_info: #verificação de atributos
+            self.period = "lifetime"
+        else:
+            self.period = "day"
 
     def build_url (self, since, until):
         url = "https://graph.facebook.com/" + self.api_version + "/" + self.instagram_business_account_id + "/insights" + "?metric=" + self.metric + "&period=" + self.period + "&since=" + since + "&until=" + until + "&access_token=" + TOKEN

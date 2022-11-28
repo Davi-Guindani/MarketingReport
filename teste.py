@@ -99,7 +99,6 @@ for insight in user_insights:
         lista.append (RangedInsightInfo (insight).set_info ())
 
 print (lista)
-
 # for field in user_fields:
 #     lista.update (BasicInfo (field).set_info ())
 # print (lista)
